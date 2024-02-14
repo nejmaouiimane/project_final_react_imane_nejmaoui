@@ -12,7 +12,7 @@ module.exports = {
         'footer-texture': "url('/img/footer-texture.png')",
         'slide1' : "url('/src/assets/img/master-slide-01.jpg')",
         'slide2' : "url('/src/assets/img/master-slide-02.jpg')",
-        'slide3' : "url('/src/assets/img/master-slide-03.jpg')",
+        'slide3' : "url('/src/assets/img/master-slide-04.jpg')",
       }
     },
   },

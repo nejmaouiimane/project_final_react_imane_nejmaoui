@@ -26,7 +26,8 @@ export const Header = () => {
                     </NavbarLink>
                     <NavbarLink href="#">SHOP</NavbarLink>
                     <NavbarLink href="#">ABOUT</NavbarLink>
-                    <NavbarLink href="#">CONTACT</NavbarLink>
+                    {/* <NavbarLink to={'/contact'} >CONTACT</NavbarLink> */}
+                    <Link className='text-black text-xl no-underline' to={'/contact'}>contact</Link>
                 </NavbarCollapse>
             </Navbar>
         </>

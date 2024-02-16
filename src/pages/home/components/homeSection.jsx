@@ -41,27 +41,27 @@ export const FirstSection = () => {
 
             <div className='flex lg:flex-row  flex-col p-8'>
                 <div className='flex flex-col gap-9 px-8 overflow-hidden '>
-                    <div className='w-[26vw] h-[70vh] bg-cover bg-dresses hover:scale-110 duration-300 relative'>
-                        <button className=' bg-white h-[7vh] w-[10vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>DRESSES</button>
+                    <div className=' lg:w-[26vw] w-[80vw] h-[70vh] bg-cover bg-dresses hover:scale-110 duration-300 relative'>
+                        <button className=' bg-white h-[7vh] lg:w-[10vw] w-[40vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>DRESSES</button>
                     </div>
-                    <div className='bg-sunglasses w-[26vw] bg-cover h-[45vh]  hover:scale-110 duration-300 relative'>
-                        <button className=' bg-white h-[7vh] w-[10vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>SUNGLASSE</button>
-                    </div>
-                </div>
-                <div className='flex flex-col gap-9 px-8  overflow-hidden'>
-                    <div className='w-[26vw] h-[45vh] bg-cover bg-watch hover:scale-110 duration-300 relative'>
-                        <button className=' bg-white h-[7vh] w-[10vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>WATCH</button>
-                    </div>
-                    <div className='w-[26vw] bg-footwear  bg-cover h-[70vh]  hover:scale-110 duration-300 relative'>
-                        <button className=' bg-white h-[7vh] w-[10vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>FOOTWEAR</button>
+                    <div className='bg-sunglasses lg:w-[26vw] w-[80vw] bg-cover h-[45vh]  hover:scale-110 duration-300 relative'>
+                        <button className=' bg-white h-[7vh] lg:w-[10vw] w-[40vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>SUNGLASSE</button>
                     </div>
                 </div>
                 <div className='flex flex-col gap-9 px-8  overflow-hidden'>
-                    <div className='w-[26vw] h-[70vh] bg-cover bg-bag  hover:scale-110 duration-300 relative'>
-                        <button className=' bg-white h-[7vh] w-[10vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>BAG</button>
+                    <div className='lg:w-[26vw] w-[80vw] h-[45vh] bg-cover bg-watch hover:scale-110 duration-300 relative'>
+                        <button className=' bg-white h-[7vh] lg:w-[10vw] w-[40vw]  flex absolute justify-center items-center translate-x-28 bottom-4 center'>WATCH</button>
                     </div>
-                    <div className='w-[26vw]  bg-cover h-[45vh] bg-accessoire  hover:scale-110 duration-300 relative '>
-                        <button className=' bg-white h-[7vh] w-[10vw] flex absolute justify-center items-center translate-x-28 bottom-4 center'>ACCESSOIRE</button>
+                    <div className='lg:w-[26vw] w-[80vw] bg-footwear  bg-cover h-[70vh]  hover:scale-110 duration-300 relative'>
+                        <button className=' bg-white h-[7vh] lg:w-[10vw] w-[40vw]  flex absolute justify-center items-center translate-x-28 bottom-4 center'>FOOTWEAR</button>
+                    </div>
+                </div>
+                <div className='flex flex-col gap-9 px-8  overflow-hidden'>
+                    <div className='lg:w-[26vw] w-[80vw] h-[70vh] bg-cover bg-bag  hover:scale-110 duration-300 relative'>
+                        <button className=' bg-white h-[7vh] lg:w-[10vw] w-[40vw]  flex absolute justify-center items-center translate-x-28 bottom-4 center'>BAG</button>
+                    </div>
+                    <div className='lg:w-[26vw] w-[80vw]  bg-cover h-[45vh] bg-accessoire  hover:scale-110 duration-300 relative '>
+                        <button className=' bg-white h-[7vh] lg:w-[10vw] w-[40vw]  flex absolute justify-center items-center translate-x-28 bottom-4 center'>ACCESSOIRE</button>
                     </div>
                 </div>
             </div>

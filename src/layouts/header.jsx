@@ -21,13 +21,10 @@ export const Header = () => {
                     <NavbarToggle />
                 </div>
                 <NavbarCollapse>
-                    <NavbarLink href="#" active>
-                        HOME
-                    </NavbarLink>
-                    <NavbarLink href="#">SHOP</NavbarLink>
-                    <NavbarLink href="#">ABOUT</NavbarLink>
-                    {/* <NavbarLink to={'/contact'} >CONTACT</NavbarLink> */}
-                    <Link className='text-black text-xl no-underline' to={'/contact'}>contact</Link>
+                    <Link  className='text-black text-xl no-underline' to={'/'}active> HOME</Link>
+                    <Link className='text-black text-xl no-underline' to={'/shop'}>SHOP</Link>
+                    <Link className='text-black text-xl no-underline' to={'/about'}>ABOUT</Link>
+                    <Link className='text-black text-xl no-underline' to={'/contact'}>CONTACT </Link>
                 </NavbarCollapse>
             </Navbar>
         </>

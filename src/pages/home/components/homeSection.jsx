@@ -14,6 +14,7 @@ import blog3 from '../../../assets/img/blog-10.jpg'
 export const FirstSection = () => {
     return (
         <>
+        {/* carousel */}
             <div className="h-[80vh] ">
                 <Carousel slide={false}>
                     <div className=' relative '>
@@ -69,49 +70,49 @@ export const FirstSection = () => {
             <h1 className='text-center p-8'>FEATURED PRODUCTS</h1>
             <div className='flex lg:flex-row flex-col justify-center gap-8 p-8'>
                 <div>
-                    <img className='w-[18vw]' src={item1} alt="" />
+                    <img className='lg:w-[18vw] w-[90vw]' src={item1} alt="" />
                     <p>Boxy7 T-Shirt with Roll Sleeve</p>
                     <p>$ 20.00</p>
                 </div>
                 <div>
-                    <img className='w-[18vw]' src={item2} alt="" />
+                    <img className='lg:w-[18vw] w-[90vw]' src={item2} alt="" />
                     <p>Boxy7 T-Shirt with Roll Sleeve</p>
                     <p>$ 20.00</p>
                 </div>
                 <div>
-                    <img className='w-[18vw]' src={item3} alt="" />
+                    <img className='lg:w-[18vw] w-[90vw]' src={item3} alt="" />
                     <p>Boxy7 T-Shirt with Roll Sleeve</p>
                     <p>$ 20.00</p>
                 </div>
                 <div>
-                    <img className='w-[18vw]' src={item4} alt="" />
+                    <img className='lg:w-[18vw] w-[90vw]' src={item4} alt="" />
                     <p>Boxy7 T-Shirt with Roll Sleeve</p>
                     <p>$ 20.00</p>
                 </div>
             </div>
             {/* fourth section */}
-            <div className='w-[100%] h-[70vh] flex lg:flex-row flex-col items-center  justify-center bg-slate-200'>
-                <div className='bg-pic4 bg-cover bg-center text-white h-[50vh] w-[35vw] flex flex-col align-middle justify-center items-center '>
+            <div className='w-[100%] lg:h-[70vh] h-[100vh] lg:py-0 py-8 flex lg:flex-row flex-col items-center  justify-center bg-slate-200'>
+                <div className='bg-pic4 bg-cover bg-center text-white lg:h-[50vh] lg:w-[35vw] w-[90vw] h-[80vh] flex flex-col align-middle justify-center items-center '>
                     <h4 className='text-2xl font-bold'>The Beauty </h4>
                     <h1 className='text-4xl font-bold'>LOOKBOOK</h1>
                     <p>view collection</p>
                 </div>
                 {/*  */}
-                <div className=' h-[50vh] w-[35vw] flex flex-col align-middle justify-center bg-white'>
-                    <div className='bg-pic5 bg-cover w-[30vw] h-[30vh] '></div>
+                <div className=' lg:h-[50vh] lg:w-[35vw] h-[40vh]  flex flex-col align-middle items-center justify-center bg-white'>
+                    <div className='bg-pic5 bg-cover lg:w-[30vw] lg:h-[30vh] w-[90vw] h-[70vh]'></div>
                     <h4 className='text-center'>Boxy2 T-shirt with Roll Sleeve </h4>
                     <p className='text-center'>$20.00</p>
                     <div className='flex flex-row  justify-center gap-3'>
-                        <div className='border-2 border-slate-400 w-[4vw] '>
+                        <div className='border-2 border-slate-400 lg:w-[4vw] w-[10vw]'>
                             <p className='w-[3vw] text-center '>-1873 days</p>
                         </div>
-                        <div className='border-2 border-slate-400 w-[4vw] '>
+                        <div className='border-2 border-slate-400 lg:w-[4vw] w-[10vw] '>
                             <p className='w-[3vw] text-center'>-10 hrs</p>
                         </div>
-                        <div className='border-2 border-slate-400 w-[4vw] '>
+                        <div className='border-2 border-slate-400 lg:w-[4vw] w-[10vw] '>
                             <p className='w-[3vw] text-center'>-55 mins</p>
                         </div>
-                        <div className='border-2 border-slate-400 w-[4vw] '>
+                        <div className='border-2 border-slate-400 lg:w-[4vw] w-[10vw] '>
                             <p className='w-[3vw] text-center'>-31 secss</p>
                         </div>
 
@@ -120,20 +121,20 @@ export const FirstSection = () => {
             </div>
             {/* dsection5 */}
             <h1 className='p-8 font-bold text-2xl text-center'>OUR BLOG</h1>
-            <div className='flex lg:flex-row flex-col justify-evenly px-28 gap-6'>
-                <div className='w-[30vw]' >
+            <div className='flex lg:flex-row flex-col justify-evenly lg:px-28 px-5 gap-6'>
+                <div className='lg:w-[30vw] w-[90vw]' >
                     <img src={blog1} alt="" />
                     <h1>Black Friday Guide: Best Sales & Discount Codes</h1>
                     <p className='text-slate-500'>by fashe-theme Admin on Dec 28,2017</p>
                     <p className='text-slate-400'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed turpis sed lorem dignissim vulputate nec cursus ante. Nunc sit...</p>
                 </div>
-                <div className='w-[30vw]'>
+                <div className='lg:w-[30vw] w-[90vw]'>
                     <img src={blog2} alt="" />
                     <h1>The White Sneakers Nearly Every Fashion Girls Own</h1>
-                    <p className='text-slate-500'>by fashe-theme Admin on Dec 28,2017</p>
+                    <p className='text-slate-500'>by fashe-theme Admin on Dec 29,2017</p>
                     <p className='text-slate-400'>Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et...</p>
                 </div>
-                <div className='w-[30vw]'>
+                <div className='lg:w-[30vw] w-[90vw]'>
                     <img src={blog3} alt="" />
                     <h1>New York SS 2018 Street Style: By Annina Mislin</h1>
                     <p className='text-slate-500'>by fashe-theme Admin on Dec 28,2017</p>
@@ -141,17 +142,17 @@ export const FirstSection = () => {
                 </div>
             </div>
             {/* section6 */}
-            <h1 className='p-8 text-center font-bold text-2xl'> @ FOLLOW US ON INSTAGRAM </h1>
-            <div className='flex lg:flex-row flex-col w-[100%] justify-evenly py-32'>
-                <div className=''>
-                    <h1>Free Delivery Worldwide</h1>
+            <h1 className='lg:p-8 py-10 text-center font-bold text-2xl'> @ FOLLOW US ON INSTAGRAM </h1>
+            <div className='flex lg:flex-row flex-col w-[100%] justify-evenly py-32 lg:gap-0 gap-8'>
+                <div className='lg:text-start text-center '>
+                    <h1 >Free Delivery Worldwide</h1>
                     <p className='text-slate-400'>Mirum est notare quam littera gothica</p>
                 </div>
-                <div className=' px-28 border-r-2 border-l-2'>
+                <div className='lg:text-start text-center  px-28 border-r-2 border-l-2'>
                     <h1>30 Days Return</h1>
                     <p className='text-slate-400'>Simply return it within 30 days for an exchange.</p>
                 </div>
-                <div className=''>
+                <div className='lg:text-start text-center '>
                     <h1>Store Opening</h1>
                     <p className='text-slate-400'>Shop open from Monday to Sunday</p>
                 </div>

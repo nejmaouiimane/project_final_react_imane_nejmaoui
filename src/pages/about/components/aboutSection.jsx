@@ -1,5 +1,3 @@
-
-
 import './aboutSection.sass'
 import { Link } from 'react-router-dom'
 import titiza from "../../../assets/img/item-cart-01.jpg"
